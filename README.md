@@ -1,15 +1,16 @@
 # BlastPad
-A vibrant new launch page for your startup.
+Create a launch website for your startup with a blast!  
 
 
 # What is BlastPad?
-BlastPad is a simple landing page for your website or beta site.  Users can sign up for your launch.  
+Get users for your startup quickly by creating a launch site with BlastPad.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your beta.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready.  BlastPad is open-source so you can set it up on your own server or you can have us host your site for free.
+
 It is written in JavaScript, PHP and mySQL.
 
 
 ## Demo
 
-You can see a working version at http://beta.silverhoneymedia.com. 
+You can see a working version at http://blastpad.silverhoneymedia.com. 
 
 
 ## Prerequisites
@@ -74,7 +75,7 @@ For bug reports, feature requests, questions, or corrections, please contact me 
 
  - honeysilvas@gmail.com
  - http://www.zenanswer.com
- - @honeysilvas
+ - @theblastpad
  - https://github.com/honeysilvas
 
 
