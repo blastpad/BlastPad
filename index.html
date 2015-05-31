@@ -24,21 +24,18 @@
 
 <p>BlastPad is a website builder that is as easy to use as a content management system and as flexible as a framework. </p>
 
-<h2>
-<a id="what-is-blastpad" class="anchor" href="#what-is-blastpad" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is BlastPad?</h2>
+<h1>
+<a id="what-is-blastpad" class="anchor" href="#what-is-blastpad" aria-hidden="true"><span class="octicon octicon-link"></span></a>What is BlastPad?</h1>
 
-<p>BlastPad is a website builder that is as easy to use as a content management system and as flexible as a framework. </p>
+<p><img src="/src/library/blastpad/blastpad/screenshot/blastpad_screenshot.jpg" alt="Alt text"></p>
 
-<p>It's still a work in progress but right now, you can get users by creating a coming soon launch site with BlastPad.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your beta.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready.  </p>
+<p>It's still a work in progress but right now, you can create a simple launch website that collects users.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your site.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready. </p>
+
+<p>There is still a lot of work to be done but eventually, BlastPad will have an intuitive interface for building and managing sites that is as easy to use as a content management system and as flexible as a framework.  </p>
 
 <p>BlastPad is open-source so you can set it up on your own server or you can have us host your site for free.</p>
 
 <p>It is written in HTML, CSS, JavaScript and PHP.</p>
-
-<h2>
-<a id="screenshot" class="anchor" href="#screenshot" aria-hidden="true"><span class="octicon octicon-link"></span></a>Screenshot</h2>
-
-<p><img src="/src/library/blastpad/blastpad/screenshot/blastpad_screenshot.jpg" alt="Alt text"></p>
 
 <h2>
 <a id="demo" class="anchor" href="#demo" aria-hidden="true"><span class="octicon octicon-link"></span></a>Demo</h2>
@@ -53,12 +50,16 @@
 <li>Collect email addresses.</li>
 <li>Share with Facebook and Twitter.</li>
 <li>Free!</li>
-<li>Open source</li>
-<li>Responsive web design</li>
-<li>Mobile-friendly</li>
-<li>Optimized for search engines</li>
-<li>Database-agnostic </li>
+<li>Open source.</li>
+<li>Responsive web design.</li>
+<li>Mobile-friendly.</li>
+<li>Optimized for search engines.</li>
+<li>Database-agnostic.</li>
+<li>Plays well with third-party libraries and other frameworks.</li>
 </ul>
+
+<h1>
+<a id="how-to-install-blastpad" class="anchor" href="#how-to-install-blastpad" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to Install BlastPad</h1>
 
 <h2>
 <a id="prerequisites" class="anchor" href="#prerequisites" aria-hidden="true"><span class="octicon octicon-link"></span></a>Prerequisites</h2>
@@ -87,20 +88,22 @@
 </ul>
 
 <h2>
-<a id="how-to-install-blastpad" class="anchor" href="#how-to-install-blastpad" aria-hidden="true"><span class="octicon octicon-link"></span></a>How to Install BlastPad</h2>
+<a id="installation" class="anchor" href="#installation" aria-hidden="true"><span class="octicon octicon-link"></span></a>Installation</h2>
 
 <p>There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad, hosted on your local computer or hosted on your own server.</p>
 
-<p>### Hosted on BlastPad.</p>
+<h3>
+<a id="hosted-on-blastpad" class="anchor" href="#hosted-on-blastpad" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hosted on BlastPad.</h3>
 
 <ul>
 <li>Go to <a href="http://blastpad.co">http://blastpad.co</a>.</li>
-<li>
-<p>Sign up for an account.</p>
+<li>Sign up for an account.</li>
+</ul>
 
 <h3>
 <a id="hosted-on-your-local-computer" class="anchor" href="#hosted-on-your-local-computer" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hosted on your local computer.</h3>
-</li>
+
+<ul>
 <li>
 <p>Setup PHP on your local computer if you don't already have it. </p>
 
@@ -130,15 +133,16 @@
 <p>Create a new database on your server.</p>
 
 <ul>
-<li>Import the file "database.sql" from the directory "src/library/blastpad/blastpad/sql/" into your database.</li>
+<li>Import the file "database.sql" from the directory "script/sql" into your database.</li>
 </ul>
 </li>
-<li>
-<p>Follow the instructions below on "How to Customize".</p>
+<li><p>Follow the instructions below on "How to Customize".</p></li>
+</ul>
 
 <h3>
 <a id="hosted-on-your-own-server" class="anchor" href="#hosted-on-your-own-server" aria-hidden="true"><span class="octicon octicon-link"></span></a>Hosted on your own server.</h3>
-</li>
+
+<ul>
 <li>
 <p>Download the code.</p>
 
@@ -154,7 +158,7 @@
 <p>Create a new database on your server.</p>
 
 <ul>
-<li>Import the file "database.sql" from the directory "src/library/blastpad/blastpad/sql/" into your database.</li>
+<li>Import the file "database.sql" from the directory "script/sql" into your database.</li>
 </ul>
 </li>
 <li><p>Follow the instructions below on "How to Customize".</p></li>
@@ -182,7 +186,7 @@ Replace the strings with your own text.</p>
 $title = "BlastPad";
 
 // The subheading.
-$tagline = "A bold new way to launch your startup.";
+$tagline = "A bold new way to launch your website.";
 
 // Your Google Analytics tracking code (enter just your account number which typically starts with UA-
 $google_analytics_code = "UA-0000000-00";
@@ -190,13 +194,13 @@ $google_analytics_code = "UA-0000000-00";
 </li>
 </ul>
 
-<h2>
-<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h2>
+<h1>
+<a id="license" class="anchor" href="#license" aria-hidden="true"><span class="octicon octicon-link"></span></a>License</h1>
 
 <p>This is released under the GPL license so feel free to use.</p>
 
-<h2>
-<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributions</h2>
+<h1>
+<a id="contributions" class="anchor" href="#contributions" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contributions</h1>
 
 <p>Contributions are most welcome!   We welcome contributions of code (front-end and back-end), design, documentation, support, marketing, translation, SEO and more!  </p>
 
@@ -210,16 +214,28 @@ $google_analytics_code = "UA-0000000-00";
 
 <p>Please read the file contributing.MD for more information about contributing to this project.</p>
 
-<h2>
-<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h2>
+<h1>
+<a id="credits" class="anchor" href="#credits" aria-hidden="true"><span class="octicon octicon-link"></span></a>Credits</h1>
 
 <ul>
-<li>Honey Silvas</li>
-<li>(Add your name here by contributing!)</li>
+<li>Honey Silvas (<a href="https://github.com/honeysilvas" class="user-mention">@honeysilvas</a>)</li>
+<li>(Add your name here by contributing.)</li>
 </ul>
 
-<h2>
-<a id="help-and-support" class="anchor" href="#help-and-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help and Support</h2>
+<h1>
+<a id="security" class="anchor" href="#security" aria-hidden="true"><span class="octicon octicon-link"></span></a>Security</h1>
+
+<p>We take security seriously.  Please report security vulnerabilities responsibly by emailing me PRIVATELY at <a href="mailto:honeysilvas@gmail.com">honeysilvas@gmail.com</a>. </p>
+
+<h1>
+<a id="help-and-support" class="anchor" href="#help-and-support" aria-hidden="true"><span class="octicon octicon-link"></span></a>Help and Support</h1>
+
+<p>For help with using BlastPad, you can start a new thread at <a href="http://zenanswer.com">http://zenanswer.com</a>.  </p>
+
+<p>Or you can chat with us live at <a href="https://gitter.im/honeysilvas/BlastPad?utm_source=badge&amp;utm_medium=badge&amp;utm_campaign=pr-badge&amp;utm_content=badge"><img src="https://badges.gitter.im/Join%20Chat.svg" alt="Join the chat at https://gitter.im/honeysilvas/BlastPad"></a></p>
+
+<h1>
+<a id="contact-information" class="anchor" href="#contact-information" aria-hidden="true"><span class="octicon octicon-link"></span></a>Contact Information</h1>
 
 <p>For bug reports, feature requests, questions, or corrections, please contact me at:</p>
 
