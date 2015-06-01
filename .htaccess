@@ -1,0 +1,22 @@
+# Routing of BlastPad using mod_rewrite
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+	
+    # Redirect trailing slashes.
+    #RewriteRule ^(.*)/$ /$1 [L,R=301]
+	
+	# Route all requests for src folder to index.php.
+	#RewriteRule ^src(/|$) index.php [NC,L]
+	RewriteRule ^custom(/|$) index.php [NC,L]
+	
+	# If the directory is not there, and the file does not exist, redirect to index.php.
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteRule ^ index.php [L]
+	
+	# Disallow access to sqlite database.
+	<FilesMatch "\.(sqlite|sdb|s3db)$">
+      Deny from all
+    </FilesMatch>
+</IfModule>
+# BlastPad end
