@@ -81,7 +81,7 @@ There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad,
    - Then go to your browser and type http://localhost/blastpad 
   
   - Create a new database on your server.
-   - Import the file "database.sql" from the directory "script/sql" into your database.
+   - Import the file "database.sql" from the directory "src\library\blastpad\blastpad\sql" into your database.
   
   - Follow the instructions below on "How to Customize".
  
@@ -94,7 +94,7 @@ There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad,
   - Upload the files to your server.  
  
   - Create a new database on your server.
-   - Import the file "database.sql" from the directory "script/sql" into your database.
+   - Import the file "database.sql" from the directory "src\library\blastpad\blastpad\sql" into your database.
    
   - Follow the instructions below on "How to Customize".
 

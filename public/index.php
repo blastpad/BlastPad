@@ -1,6 +1,6 @@
 <?php 
-	require_once( dirname(__FILE__) . "../../customize.php" ); 
-	require_once( dirname(__FILE__) . "../../script/module/common/validation.php" );
+	require_once( dirname(__FILE__) . "../../custom/customize.php" ); 
+	require_once( dirname(__FILE__) . "../../src/library/blastpad/blastpad/module/common/validation.php" );
 ?>
 <!DOCTYPE html>
 <head>
@@ -20,10 +20,10 @@
 			<h2><?php echo sanitize( $tagline ); ?></h2>
 			<p>&nbsp;</p>
 			
-			<?php require_once( dirname(__FILE__) . "../../script/module/snowflake-authentication/subscribe/index.php" ); ?>
+			<?php require_once( dirname(__FILE__) . "../../src/library/blastpad/blastpad/module/snowflake_authentication/subscribe/index.php" ); ?>
 			
 			<div class="credit">
-				<a href="http://silverhoneymedia.com" target="_blank">Powered by SilverHoneyMedia</a>
+				<a href="http://blastpad.co" target="_blank">Powered by BlastPad</a>
 			</div>
 			
 		</div>		
