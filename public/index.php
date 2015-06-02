@@ -8,7 +8,7 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta name="description" content="<?php echo $tagline ?>">
 	<meta name="keywords" content="website, cms, blog, content management system, blogging platform, web, responsive, design, free">
-	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link rel="stylesheet" href="shared/css/style.css" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Ubuntu,Raleway" rel="stylesheet" type="text/css">
 </head>
 <body>

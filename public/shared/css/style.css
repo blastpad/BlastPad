@@ -12,7 +12,7 @@
 		margin: 0;
 		width: 100%;
 		height: 100%;
-		background-image: url( "../image/dawn-190053.jpg" );
+		background-image: url( "../../shared/image/background/dawn-190053.jpg" );
 		background-size: cover;
 		position: absolute;
 		text-align: center;
