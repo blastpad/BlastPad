@@ -6,7 +6,7 @@ BlastPad is a website builder that is as easy to use as a content management sys
 
 ![Alt text](/src/library/blastpad/blastpad/screenshot/blastpad_screenshot.jpg)
 
-It's still a work in progress but right now, you can create a simple launch website that collects users.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your site.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready. 
+It's still a work in progress but right now, you can create a simple launch website that lets users sign up.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your site.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready. 
 
 There is still a lot of work to be done but eventually, BlastPad will have an intuitive interface for building and managing sites that is as easy to use as a content management system and as flexible as a framework.  
 
@@ -64,10 +64,12 @@ BlastPad is database-agnostic.  Supported database servers include:
 There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad, hosted on your local computer or hosted on your own server.
 
 ### Hosted on BlastPad.
+
   - Go to http://blastpad.co.
   - Sign up for an account.
 
 ### Hosted on your local computer.  
+
   - Setup PHP on your local computer if you don't already have it. 
    - If you don't have PHP set up on your local computer, the easiest way to get setup is by downloading and installing XAMPP from https://www.apachefriends.org/index.html .   
  
@@ -86,6 +88,7 @@ There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad,
   - Follow the instructions below on "How to Customize".
  
 ### Hosted on your own server. 
+
   - Download the code.
    - Go to http://blastpad.github.io/BlastPad/
    - Click the button that says "Download ZIP".
@@ -100,6 +103,8 @@ There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad,
 
  
 ## How to Customize
+
+ - Go to the "custom" directory.  Rename the file "config.php.sample" to "config.php".
 
  - Open the file named "config.php" from the "custom" directory with a text editor such as Notepad.  
    Add your database login information. 
