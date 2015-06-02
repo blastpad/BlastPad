@@ -20,8 +20,7 @@
 			
 		} catch( PDOException $e ) {
 			echo "Please setup your database first.  Please see the file README.md to find out how.";
-			
-			echo 'ERROR: ' . $e->getMessage();
+			//echo 'ERROR: ' . $e->getMessage();
 			exit;
 		}
 		
