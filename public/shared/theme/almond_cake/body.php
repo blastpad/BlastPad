@@ -1,5 +1,6 @@
 <?php
-	//require_file( dirname(__FILE__) . "../../.." . blastpad_module_path . "/snowflake_authentication/index.php" ); 
+	require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/subscribe/SubscriberController.php" ); 
+	require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/subscribe/SubscriberModel.php" ); 
 
 	global $site;
 	global $post;
@@ -14,11 +15,7 @@
 		<h2><?php echo sanitize( $site[ "site_tagline" ] ); ?></h2>
 		<br />&nbsp;<br />
 		
-		<?php 
-		$subscriberController = new SubscriberController();
-		$subscriberController -> create();
-		
-		require_once( dirname(__FILE__) . "../../../../../src/library/blastpad/blastpad/module/snowflake_authentication/subscribe/index.php" ); ?>
+		<?php require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/subscribe/index.php" );  ?>
 		
 		<?php //show_form( "create", "subscriber" ); ?>
 		

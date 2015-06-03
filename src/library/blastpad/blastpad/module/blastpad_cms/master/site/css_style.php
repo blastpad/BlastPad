@@ -30,9 +30,9 @@
 		padding: 0;
 		width: 100%;
 		height: 100%;
-		background-color: #<?php echo sanitize( $post[ 0 ][ "post_background_color" ] ); ?>;
-		background-image: url( "<?php echo root_directory . "public/shared/image/background/"; ?>fields.jpg" );
-		background-size: <?php echo sanitize( $post[ 0 ][ "post_background_size" ] ); ?>;
+		//background-color: #<?php //echo sanitize( $post[ 0 ][ "post_background_color" ] ); ?>;
+		//background-image: url( "<?php //echo root_directory . "public/shared/image/background/"; ?>fields.jpg" );
+		//background-size: <?php //echo sanitize( $post[ 0 ][ "post_background_size" ] ); ?>;
 		padding-top: -20px;
 		position: relative;
 	}
