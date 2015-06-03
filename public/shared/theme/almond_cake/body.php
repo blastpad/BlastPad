@@ -14,9 +14,13 @@
 		<h2><?php echo sanitize( $site[ "site_tagline" ] ); ?></h2>
 		<br />&nbsp;<br />
 		
-		<?php //require_once( dirname(__FILE__) . "../../../../../src/library/blastpad/blastpad/module/snowflake_authentication/subscribe/index.php" ); ?>
+		<?php 
+		$subscriberController = new SubscriberController();
+		$subscriberController -> create();
 		
-		<?php show_form( "create", "subscriber" ); ?>
+		require_once( dirname(__FILE__) . "../../../../../src/library/blastpad/blastpad/module/snowflake_authentication/subscribe/index.php" ); ?>
+		
+		<?php //show_form( "create", "subscriber" ); ?>
 		
 		<br />&nbsp;<br />&nbsp;
 		<br />&nbsp;<br />&nbsp;
