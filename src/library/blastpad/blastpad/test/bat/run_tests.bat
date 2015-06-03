@@ -1,0 +1,1 @@
+cmd /k phpunit --bootstrap ../../../../../vendor/phpunit/phpunit/PHPUnit/autoload.php ../test
