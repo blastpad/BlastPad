@@ -1,11 +1,10 @@
 <?php
 
 /**
- *
  * Blastpad
- * A launch page for your startup.  
+ * An easy to use CMS and framework for quickly creating websites.  
  * by Honey Silvas
- * http://silverhoneymedia.com 
+ * http://blastpad.co
  * honeysilvas@gmail.com
  *
  */
