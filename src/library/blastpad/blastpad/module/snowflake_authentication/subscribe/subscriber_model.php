@@ -1,7 +1,7 @@
 <?php	
 namespace blastpad;
 
-class SubscriberModel {
+class subscriber_model {
 
 	function create_subscriber(){
 		global $database;

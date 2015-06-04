@@ -20,8 +20,8 @@ class subscriber_create {
 				$unique_array	= [ "subscriber_email" => "subscriber_email" ];
 				
 				// When form is submitted, insert into database.
-				require_once( dirname(__FILE__) . "../../subscribe/SubscriberModel.php" );
-				$this -> subscriber_creator_model = new SubscriberModel();			
+				require_once( dirname(__FILE__) . "../../subscribe/subscriber_model.php" );
+				$this -> subscriber_creator_model = new subscriber_model();			
 				$message = $this -> subscriber_creator_model -> create_subscriber( $record_array, $required_array, $unique_array );
 
 				if ( empty( $message ) ) {
