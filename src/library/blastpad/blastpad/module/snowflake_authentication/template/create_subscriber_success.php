@@ -1,3 +1,6 @@
+<?php
+namespace blastpad;
+?>
 <span><?php echo $message; ?></span><p>&nbsp;</p>
 
 <!-- Social media buttons. -->

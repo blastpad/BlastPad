@@ -10,15 +10,13 @@ abstract class model {
 	}
 	
 	// Sets the table name.
-	function set_table(){
-		
+	function set_table(){	
 		$class = new \ReflectionClass( get_called_class() );	
 		self::$table = $class -> getShortName();
 	}
 	
 	// Gets the table name.
-	function get_table(){
-		
+	function get_table(){		
 		return self::$table;	
 	}
 	
@@ -26,14 +24,12 @@ abstract class model {
 		
 	}
 	
-	function save(){
-		
+	function save(){	
 		
 	}
 	
 	function find(){
-		
-		
+				
 	}
 	
 	public function all( $option = "" ) {

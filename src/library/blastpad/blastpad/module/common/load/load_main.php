@@ -6,7 +6,7 @@ mb_http_output( "UTF-8" );																	// Output UTF-8 to browser.
 
 require_once ( root_directory . blastpad_module_path . "/common/load/autoload.php" );		// Autoload functions.	
 
-$sanitizer = new sanitizer();															// Sanitizes $_GET, $_POST, $_COOKIE and $_REQUEST inputs.
+$sanitizer = new sanitizer();											// Sanitizes $_GET, $_POST, $_COOKIE and $_REQUEST inputs.
 
 // Variables.
 global $database_connection;
