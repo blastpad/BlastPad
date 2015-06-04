@@ -49,10 +49,6 @@ class database {
 		if( version_compare( PHP_VERSION, "5.3.6", "<" ) ){
 			$db[ $server ][ "options" ][ \PDO::MYSQL_ATTR_INIT_COMMAND ] = "SET NAMES " . $database_charset;
 		}
-				
-		// This error handler prevents database password from showing on the page whenever there is an uncaught error.
-		//require_file( "../../error.php" );
-		//set_exception_handler( "exception_handler" );
 		
 		try {	
 				
@@ -66,28 +62,28 @@ class database {
 			//echo "ERROR: " . $e->getMessage();
 			$this -> error = $e -> getMessage();
 					
-		}
-		//restore_exception_handler ( void );
-		
+		}		
 	}
 	
 	// Run SQL query and fetch result.
-	function fetch( $sql ) {
-		$result = $this -> run( $sql );	
+	function fetch( $sql, $option = [] ) {
+		$result = $this -> run( $sql, $option );	
 		$row = $this -> statement -> fetchAll(  );
 		return $row;
 	}
 	
 	// Run SQL query.
-	function run( $sql ){
+	function run( $sql, $option = [] ){
 		$this -> statement = $this -> connection -> prepare( $sql );
-		$result = $this -> statement -> execute();
+		if ( isset( $option[ "parameter" ] ) ){
+			$result = $this -> statement -> execute( $option[ "parameter" ] );
+		}else{
+			$result = $this -> statement -> execute();
+		}	
 		return $result;
 	}
 	
-	function __destruct(){
-		
-	//	$this -> statement -> closeCursor(); 	
+	function __destruct(){	
 		$this -> statement = null; 				// Close the statement.
 		$this -> connection = null;				// Close the connection.
 	}
