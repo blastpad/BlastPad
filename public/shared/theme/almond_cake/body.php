@@ -1,10 +1,6 @@
 <?php
-	require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/subscribe/SubscriberController.php" ); 
-	require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/subscribe/SubscriberModel.php" ); 
-
 	global $site;
 	global $post;
-
 ?>
 <link rel="stylesheet" href="shared/theme/almond_cake/css/barebones.css" type="text/css">
 <link rel="stylesheet" href="shared/theme/almond_cake/css/style.css" type="text/css">
@@ -15,9 +11,9 @@
 		<h2><?php echo sanitize( $site[ "site_tagline" ] ); ?></h2>
 		<br />&nbsp;<br />
 		
-		<?php require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/subscribe/index.php" );  ?>
-		
-		<?php //show_form( "create", "subscriber" ); ?>
+		<?php 
+			require_once( dirname(__FILE__) . "../../../../../" . blastpad_module_path . "/snowflake_authentication/class/subscriber_create_class.php" );
+			new blastpad\subscriber_create(); ?>
 		
 		<br />&nbsp;<br />&nbsp;
 		<br />&nbsp;<br />&nbsp;
@@ -29,5 +25,4 @@
 	<div class="credit">
 		<a href="http://blastpad.co" target="_blank">Powered by BlastPad</a>
 	</div>
-	
 </div>	
