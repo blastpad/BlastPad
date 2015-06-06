@@ -8,7 +8,7 @@ class routing {
 	}
 	
 	function set( $route ){	
-	
+		$site_id = isset ( $_GET[ "site_id" ] ) ? $_GET[ "site_id" ] : "";
 		$page = isset ( $_GET[ "page" ] ) ? $_GET[ "page" ] : "index";		
 
 		if ( array_key_exists( $page, $route ) ){
