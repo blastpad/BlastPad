@@ -15,8 +15,6 @@ class site_builder {
 		}
 		
 		return $site_array;
-	}
-	
+	}	
 }
-
 ?>
