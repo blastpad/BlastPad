@@ -2,15 +2,17 @@
 BlastPad is a framework for easily creating one-page sites. 
 
 
+
 # What is BlastPad?
 
-![Alt text](/blastpad_source/vendor/blastpad/0.0.5/screenshot/blastpad_screenshot.jpg)
+![Alt text](/blastpad_source/vendor/blastpad/0.0.5/screenshot/blastpad_screenshot.png)
 
 Create a simple one-page website that lets users sign up.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your site.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready. 
 
 BlastPad is open-source so you can set it up on your own server or you can have us host your site for free.
 
 It is written in HTML, CSS, JavaScript and PHP.
+
 
 
 ## Demo
@@ -31,8 +33,10 @@ You can see a working version at http://blastpad.co.
  - Database-agnostic.
  - Plays well with third-party libraries and other frameworks.
  
-
+![Alt text](/blastpad_source/vendor/blastpad/0.0.5/screenshot/feature.png)
  
+
+
 # How to Install BlastPad
 
 ## Prerequisites
