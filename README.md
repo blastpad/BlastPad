@@ -1,14 +1,12 @@
 # BlastPad
-BlastPad is a website builder that is as easy to use as a content management system and as flexible as a framework. 
+BlastPad is a framework for easily creating one-page sites. 
 
 
 # What is BlastPad?
 
-![Alt text](/src/library/blastpad/blastpad/screenshot/blastpad_screenshot.jpg)
+![Alt text](/blastpad_source/vendor/blastpad/0.0.5/screenshot/blastpad_screenshot.jpg)
 
-It's still a work in progress but right now, you can create a simple launch website that lets users sign up.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your site.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready. 
-
-There is still a lot of work to be done but eventually, BlastPad will have an intuitive interface for building and managing sites that is as easy to use as a content management system and as flexible as a framework.  
+Create a simple one-page website that lets users sign up.  BlastPad works beautifully out of the box with a jumbo headline, a call to action and a simple sign up form so users can sign up for your site.  After signing up, users can share your website on Facebook, Twitter and other social media sites.  Websites created with BlastPad are always responsive, mobile-friendly and SEO-ready. 
 
 BlastPad is open-source so you can set it up on your own server or you can have us host your site for free.
 
@@ -41,14 +39,17 @@ You can see a working version at http://blastpad.co.
 
  - A web server with PHP and a database.
 
- 
+We recommend PHP version 5.6 or higher for security reasons, but we support legacy servers starting at PHP 5.2.4+ (not recommended for security reasons).
+
+
+
 ## Supported databases
 
 BlastPad is database-agnostic.  Supported database servers include:
 
   - MySQL
+  - MariaDB
   - PostgreSQL
-  - SQLite
   - CUBRID
   - MS SQL Server
   - Firebird
@@ -58,16 +59,19 @@ BlastPad is database-agnostic.  Supported database servers include:
   - ODBC and DB2
   - 4D
 
-  
+
+
 ## Installation  
   
-There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad, hosted on your local computer or hosted on your own server.
+There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad.co, hosted on your local computer or hosted on your own server.
 
-### Hosted on BlastPad.
+
+### (Easy) Hosted on BlastPad.  
 
   - Go to http://blastpad.co.
   - Sign up for an account.
 
+  
 ### Hosted on your local computer.  
 
   - Setup PHP on your local computer if you don't already have it. 
@@ -77,16 +81,17 @@ There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad,
    - Go to http://blastpad.github.io/BlastPad/
    - Click the button that says "Download ZIP".
    
-  - Then unzip your code and put it in Xampp's htdocs folder, it's usually something like c://xampp/htdocs/blastpad.  
+  - Unzip your code and place it in Xampp's htdocs folder, it's usually something like c://xampp/htdocs/.  
   
   - Run your XAMPP control panel to start Apache and mySQL.  
-   - Then go to your browser and type http://localhost/blastpad 
+   - Then go to your browser and type http://localhost/blastpad where blastpad is the name of the folder you unzipped.
   
   - Create a new database on your server.
-   - Import the file "database.sql" from the directory "src\library\blastpad\blastpad\sql" into your database.
+   - Import the file "database.sql" from the directory "blastpad_source/vendor/blastpad/0.0.5/sql" into your database.
   
   - Follow the instructions below on "How to Customize".
- 
+
+
 ### Hosted on your own server. 
 
   - Download the code.
@@ -97,39 +102,36 @@ There are 3 ways to set up BlastPad.  You can either have it hosted on BlastPad,
   - Upload the files to your server.  
  
   - Create a new database on your server.
-   - Import the file "database.sql" from the directory "src\library\blastpad\blastpad\sql" into your database.
+   - Import the file "database.sql" from the directory "blastpad_source/vendor/blastpad/0.0.5/sql" into your database.
    
   - Follow the instructions below on "How to Customize".
 
  
 ## How to Customize
 
- - Go to the "custom" directory.  Rename the file "config.php.sample" to "config.php".
+ - Go to the "custom" directory.  Copy the file "config.php.sample" and rename it to "config.php".
 
- - Open the file named "config.php" from the "custom" directory with a text editor such as Notepad.  
+ - Open the file named "config.php" with a text editor such as Notepad.  
    Add your database login information. 
-  
-			"server" 			=> "localhost",
+
+		$blastpad_config[ "database_connection" ][ "standard" ] = [
+			"database_driver" 	=> "mysql",		
+			"server" 			=> "127.0.0.1",					
+			"port"				=> "",	
 			"database" 			=> "putdatabasenamehere",
 			"username" 			=> "putusernamehere",
 			"password" 			=> "putpasswordhere",
-
- - Open the file named "customize.php" from the "custom" directory with a text editor such as Notepad.
-   Replace the strings with your own text.
+		];			
+			
+			
+ - The main HTML and CSS files are in the public_html\asset\blueprint\blastpad folder.
  
-		// The title of your website or company.
-		$title = "BlastPad";
-	
-		// The subheading.
-		$tagline = "A bold new way to launch your website.";
-	
-		// Your Google Analytics tracking code (enter just your account number which typically starts with UA-
-		$google_analytics_code = "UA-0000000-00";
 
 
 # License
 
 This is released under the GPL license so feel free to use.
+
 
 
 # Contributions
@@ -147,20 +149,24 @@ You can also email me for more information.
 Please read the file contributing.MD for more information about contributing to this project.
 
 
+
 # Credits
 
  - Honey Silvas (@honeysilvas)
  - (Add your name here by contributing.)
 
 
+ 
 # Security 
  
 We take security seriously.  Please report security vulnerabilities responsibly by emailing me PRIVATELY at honeysilvas@gmail.com. 
 
 
+
 # Help and Support
 
 For help with using BlastPad, you can start a new thread at http://zenanswer.com.  
+
 
 
 # Contact Information
@@ -169,7 +175,6 @@ For bug reports, feature requests, questions, or corrections, please contact me 
 
  - honeysilvas@gmail.com
  - Site: http://blastpad.co
- - Forum: http://zenanswer.com
  - @theblastpad
  - GitHub: https://github.com/blastpad/BlastPad
 [![Join the chat at https://gitter.im/blastpad/BlastPad](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/blastpad/BlastPad?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)

@@ -1,15 +1,15 @@
 <?php
 
 /**
+ *
  * Blastpad
- * An easy to use CMS and framework for quickly creating websites.  
+ * An easy way to create one-page sites.
  * by Honey Silvas
  * http://blastpad.co
- * honeysilvas@gmail.com
+ * theblastpad@gmail.com
  *
  */
 
- // This file just redirects to the public folder.  
-	header ( "Location: public/index.php" );
-	exit;
+// This file just calls the main index.  
+require_once ( "public_html/index.php" );
 ?>

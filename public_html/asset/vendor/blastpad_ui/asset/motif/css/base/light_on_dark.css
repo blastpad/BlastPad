@@ -1,0 +1,10 @@
+/* Light menu on dark background base */
+body {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+footer, .bp_form, .bp_bar_container {
+	background-color: #ffffff;
+	color: #000000;
+}

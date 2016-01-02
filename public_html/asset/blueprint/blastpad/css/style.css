@@ -1,0 +1,103 @@
+body {
+	font-family: Raleway, Arial, sans-serif;
+}
+
+.bp_primary_text_color {
+	color: #4099ff;
+}
+
+.fa-3x {
+	color: #666666;
+	padding: 0.2em;
+}
+
+.fa-4x {
+	padding: 0.2em;
+}
+
+h3 {
+	padding: 0.3em;
+}
+
+.bp_main_background {
+	background-image: url( "../../../image/background/pyrenees_351266.jpg" );
+}
+
+.bp_call_to_action_background {
+	background-image: url( "../../../image/background/dawn_190053.jpg" );
+}
+
+.bp_feature_background {
+	background-image: url( "../../../image/background/dawn_190053.jpg" );
+}
+
+.bp_resume_main_background {
+	background-image: url( "../../../image/background/office_581131.jpg" );
+	opacity: 0.8;
+}
+
+.bp_resume_call_to_action_background {
+	background-image: url( "../../../image/background/student_849825.jpg" );
+	opacity: 0.8;
+}
+
+.bp_brand {
+	font-size: 4em;
+	font-weight: normal;
+}
+
+input, button {
+	border-radius: 5px;
+}
+
+input[type="email"] {
+	font-size: 1em;
+	width: 20em;	
+}
+
+input[type="submit"]{
+	background-color: #f9cc46;
+	color: #ffffff;
+}
+
+.bp_message {
+	background-color: #ffffe0;
+	border: 0;
+	color: #333333;
+	margin-top: 0.5em;
+	max-width: 100%;
+	padding: 0.1em;
+	/*width: 25em;*/
+}
+
+.bp_workspace {
+	border: 0.1em solid #cccccc;
+	float: left;
+	height: 90%;
+	margin: 1em;
+	overflow-y: hidden;
+	width: 80%;
+}
+
+.bp_link {
+	color: #0033ff;
+}
+
+input.bp_field {
+	width: 100%;
+}
+
+input[ type="submit" ]{
+	background-color: #FAA625;
+	border: 0;
+}
+
+/* To move */
+
+.bp_transparent_text{
+	opacity: 0.5;
+}
+
+.bp_opaque {
+	opacity: 1;
+}

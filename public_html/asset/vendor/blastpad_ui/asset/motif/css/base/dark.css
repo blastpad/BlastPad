@@ -1,0 +1,5 @@
+/* Dark base */
+body, footer, .bp_form, .bp_bar_container {
+	background-color: #000000;
+	color: #ffffff;
+}

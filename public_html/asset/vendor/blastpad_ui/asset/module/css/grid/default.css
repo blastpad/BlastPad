@@ -1,0 +1,28 @@
+/* Grid default */
+html {
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	width: 100%;
+}	
+
+main {
+	height: 100%;
+	width: 100%;
+}
+
+section {
+/*	height: 100%;*/
+	width: 100%;
+	/*padding: 1em;*/
+}
+	
+.bp_container {
+	height: 90%;
+	max-width: 100%;
+	margin: auto;
+	position: relative;
+	width: 100%;
+}

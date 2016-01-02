@@ -30,6 +30,6 @@ You can also email me for more information.
 		
 	All names and table names are in the singular form instead of the plural.
 		
- - Since this is a CMS / framework, I want to use as few external libraries as possible to keep the code lightweight.  That includes JavaScript libraries such as jQuery.  So, instead of using jQuery, use just plain old JavaScript as much as possible.	
+ - Since this is a CMS / framework, I want to use as few external libraries as possible to keep the code lightweight.  That includes not using JavaScript libraries such as jQuery.  So, instead of using jQuery, use just plain old JavaScript as much as possible.	
    
 
