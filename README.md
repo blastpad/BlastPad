@@ -163,12 +163,6 @@ We take security seriously.  Please report security vulnerabilities responsibly 
 
 
 
-# Help and Support
-
-For help with using BlastPad, you can start a new thread at http://zenanswer.com.  
-
-
-
 # Contact Information
 
 For bug reports, feature requests, questions, or corrections, please contact me at:
