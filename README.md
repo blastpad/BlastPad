@@ -172,6 +172,3 @@ For bug reports, feature requests, questions, or corrections, please contact me 
  - @theblastpad
  - GitHub: https://github.com/blastpad/BlastPad
 [![Join the chat at https://gitter.im/blastpad/BlastPad](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/blastpad/BlastPad?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
-
-
-
