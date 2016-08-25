@@ -1,15 +1,14 @@
 <?php 
 
-/**
- * 
- * Loader.
- *
- */
+	global $blastpad;
 
-	// Loads the configuration settings.
-	require_once( "custom/config/config_advanced.php" );
+	// Set root directory.
+	$blastpad[ "path" ][ "root" ] = dirname(__DIR__);
+	
+	// Set blastpad_source directory.
+	$blastpad[ "path" ][ "source" ] = dirname( __FILE__ ) . "/";
 
-	// Loads all the things.
-	require_once( $blastpad_config[ "path" ][ "module" ] . "blastpad/controller/blastpad.php" );
-	$blastpad = new blastpad();
+	// Set current version of blastpad_source.
+	$blastpad[ "path" ][ "source_version" ] = "0.1.0";
+	require_once ( $blastpad[ "path" ][ "source" ] . $blastpad[ "path" ][ "source_version" ] . "/index.php" );
 ?>

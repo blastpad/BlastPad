@@ -1,0 +1,26 @@
+/* Form default */
+input[ type="text" ], input[ type="password" ], input[ type="email" ], textarea, select {
+	border: 0.1em solid #efefef;
+	font-size: 1em;
+	margin: 0.5em 0 0 0;
+	padding: 0.8em;
+	width: 100%;
+}
+
+label {
+	font-size: 1em;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+/* Button */
+
+button, input[ type="submit" ], input[ type="button" ] {
+	background-color: #ffffff;
+	border: 0.1em solid #666666;
+	color: #666666;
+	font-size: 1em;
+	font-weight: bold;
+	margin: auto;
+	padding: 0.8em 1em 0.8em 1em;
+}

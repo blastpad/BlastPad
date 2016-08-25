@@ -1,0 +1,43 @@
+a {
+	color: inherit;
+}
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Headings */
+h1 {	
+	font-size: 2.4em;
+	line-height: 1.2em;
+}
+
+h2 {	
+	font-size: 1.8em;
+	line-height: 1.2em;
+}
+
+h3 { 
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
+
+h4 {	
+	font-size: 1em;
+	line-height: 1.8em;
+}
+
+h5 {	
+	font-size: 0.9em;
+	line-height: 1.8em;
+}
+
+h6 {	
+	font-size: 0.8em;
+	line-height: 1.8em;
+}
+
+/* Paragraph */
+p { 
+	line-height: 1.8em; 
+}

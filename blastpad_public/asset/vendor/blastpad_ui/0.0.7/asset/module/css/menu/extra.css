@@ -1,0 +1,98 @@
+.bp_menu_top {
+	float: right;
+}
+
+.bp_nav {
+	background: -webkit-linear-gradient(top, #f8f8f8, #eee);
+    background: -moz-linear-gradient(top, #f8f8f8, #eee);
+    background: linear-gradient(top, #f8f8f8, #eee);
+	float: left;
+	font-size: 0.9em;
+	font-weight: bold;
+	width: 100%;
+}
+
+.bp_menu_toolbar {
+	background: -webkit-linear-gradient(top, #f8f8f8, #eee);
+    background: -moz-linear-gradient(top, #f8f8f8, #eee);
+    background: linear-gradient(top, #f8f8f8, #eee);
+	bottom: 0;
+	padding: 0.25em;
+	width: 100%;
+}
+
+.bp_bar_container {
+	background-color: #ffffff;
+	margin: auto;
+	width: 100%;
+	z-index: 1;
+}
+
+.bp_bar_container a {
+	text-decoration: none;
+}
+
+.bp_bar {
+	margin: auto;
+	width: 100%;
+}
+
+.bp_logo {
+	float: left;
+}
+
+.bp_menu {
+	text-align: right;
+}
+
+.bp_menu ul {
+	list-style: none;
+}
+
+.bp_menu li{
+	display: inline;
+	font-size: 0.9em;
+	margin: 0.5em;
+}
+
+/* Sticky */
+
+.bp_sticky_top { 
+	position: fixed;
+}
+
+.bp_sticky_bottom {
+	bottom: 0;
+	position: fixed;
+}
+
+/* Dropdown */
+.bp_menu {
+	display: inline-block;
+	position: relative;
+}
+
+.bp_submenu {
+	display: none;
+	position: absolute;
+}
+
+.bp_dropdown:hover .bp_submenu{
+	display: block;
+}
+
+/* Bottom bar */
+
+.bp_bottom_bar_wrapper {
+	min-height: 100%;
+	position: relative;
+}
+
+.bp_bottom_bar {
+	background-color: #f9f9f9;
+	bottom: 0;
+	display: block;
+	padding: 0.5em;
+	position: fixed;
+	width: 100%;
+}

@@ -1,1 +1,2 @@
-blastpad_source/custom/config.php
+blastpad_custom/config/production/database.php
+blastpad_custom/config/development/database.php

@@ -1,0 +1,160 @@
+body {
+	color: #666666;
+	font-family: "Source Sans Pro", Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+.bp_brand {
+	font-family: Raleway, Arial, sans-serif;
+	font-size: 3.5em;
+}
+
+.bp_tagline {
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.5em;
+}
+
+.bp_subheading {
+	font-family: Lato, Arial, sans-serif;
+	font-size: 1.2em;
+}
+
+h2 {
+	color: #4099ff;
+	font-size: 2em;
+}
+
+h2, h3, h4 {
+	font-family: Lato, Arial, sans-serif;
+	font-weight: normal;
+}
+
+.bp_primary_text_color {
+	color: #4099ff;
+}
+
+section:nth-of-type( even )  {
+	background-color: #fbfbfb;
+}
+
+header {
+	min-height: 100vh;
+	padding: 3em;
+}
+
+section {
+	min-height: 50vh;
+	padding: 3em;
+}
+
+.bp_box {
+	border: 0.1em solid #999999;
+	padding: 1em;
+}
+
+.bp_portfolio img {
+	border: 0.1em solid #dfdfdf;
+	margin: 1em;
+	max-height: 50vh;
+}
+
+.bp_feature {
+	padding: 0;
+}
+
+.bp_column_3 {
+	min-height: 50vh;
+}
+
+.bp_column_4 {
+	min-height: 50vh;
+	padding: 3em;
+}
+
+.fa-3x {
+	color: #666666;
+	padding: 0.2em;
+}
+
+.fa-4x {
+	padding: 0.2em;
+}
+
+.bp_main_background {
+	background-image: url( "../../../../image/background/pyrenees-351266.jpg" );
+}
+
+.bp_call_to_action_background {
+	background-image: url( "../../../../image/background/dawn-190053.jpg" );
+}
+
+.bp_feature_background {
+	background-image: url( "../../../../image/background/dawn-190053.jpg" );
+}
+
+.bp_resume_main_background {
+	background-image: url( "../../../../image/background/office-581131.jpg" );
+	opacity: 0.8;
+}
+
+.bp_resume_call_to_action_background {
+	background-image: linear-gradient( rgba( 0, 0, 0, 0.75 ),rgba( 255, 255, 255, 0.5 )), url( "../../../../image/background/student-849825.jpg" );
+	color: #ffffff;
+}
+
+input, button {
+	border-radius: 5px;
+}
+
+input[type="email"] {
+	font-size: 1em;
+	max-width: 100%;
+	width: 20em;	
+}
+
+input[type="submit"]{
+	background-color: #ffc107;
+	color: #ffffff;
+}
+
+.bp_message {
+	background-color: #ffffe0;
+	border: 0;
+	color: #333333;
+	margin-top: 0.5em;
+	max-width: 100%;
+	padding: 0.1em;
+	/*width: 25em;*/
+}
+
+.bp_workspace {
+	border: 0.1em solid #cccccc;
+	float: left;
+	height: 90%;
+	margin: 1em;
+	overflow-y: hidden;
+	width: 80%;
+}
+
+.bp_link {
+	color: #0033ff;
+}
+
+input.bp_field {
+	max-width: 100%;
+}
+
+input[ type="submit" ], .bp_call_to_action{
+	background-color: #FBA727;
+	border: 0;
+}
+
+/* To move */
+
+.bp_transparent_text{
+	opacity: 0.5;
+}
+
+.bp_opaque {
+	opacity: 1;
+}

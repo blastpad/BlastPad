@@ -1,0 +1,34 @@
+/* General default */
+
+main {
+	clear: both;
+	margin: auto;
+	max-width: 100%;
+}
+
+hr {
+	border: 0;
+	background: #efefef;
+	height: 0.1em;
+}
+
+code {
+	background-color: #fefefe;
+	border: 0.1em solid #efefef;
+	overflow: auto;
+	padding: 0.1em;
+	white-space: pre;
+}
+
+p {
+	line-height: 2em;
+}
+
+a:link, a:visited, a:active {
+	text-decoration: none;
+}
+
+/* Footer */
+footer {
+	width: 100%;
+}
